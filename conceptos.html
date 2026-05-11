@@ -171,7 +171,7 @@
             <div class="flex justify-between items-center">
                 <div class="text-2xl font-bold gradient-text">Administraci&oacute;n de servicios</div>
                 <ul class="hidden md:flex space-x-8">
-                    <li><a href="https://mtolg.github.io/proyectointegrador/#home" class="hover:text-aurora-green transition">Home</a></li>
+                    <li><a href="./conceptos.html" class="hover:text-aurora-green transition">Conceptos</a></li>
                     <li><a href="https://mtolg.github.io/proyectointegrador/#about" class="hover:text-aurora-green transition">About</a></li>
                     <li><a href="https://mtolg.github.io/proyectointegrador/#experience" class="hover:text-aurora-green transition">Experience</a></li>
                     <li><a href="https://mtolg.github.io/proyectointegrador/#skills" class="hover:text-aurora-green transition">Skills</a></li>
@@ -179,7 +179,7 @@
                     <li><a href="https://mtolg.github.io/proyectointegrador/#portfolio" class="hover:text-aurora-green transition">Portfolio</a></li>
                     <li><a href="https://mtolg.github.io/proyectointegrador/#testimonials" class="hover:text-aurora-green transition">Testimonials</a></li>
                     <li><a href="https://mtolg.github.io/proyectointegrador/#blog" class="hover:text-aurora-green transition">Blog</a></li>
-                    <li><a href="./contacto.html" class="hover:text-aurora-green transition">Contacto</a></li>
+                    <a href="./contacto.html" class="block py-2 hover:text-aurora-green">Contacto</a>
                 </ul>
                 <!-- Mobile menu button -->
                 <button class="md:hidden" onclick="toggleMobileMenu()">
@@ -188,7 +188,7 @@
             </div>
             <!-- Mobile menu -->
             <div id="mobileMenu" class="hidden md:hidden mt-4 space-y-2">
-                <a href="https://mtolg.github.io/proyectointegrador/#home" class="block py-2 hover:text-aurora-green">Home</a>
+                <a href="./conceptos.html" class="block py-2 hover:text-aurora-green">Conceptos</a>
                 <a href="https://mtolg.github.io/proyectointegrador/#about" class="block py-2 hover:text-aurora-green">About</a>
                 <a href="https://mtolg.github.io/proyectointegrador/#experience" class="block py-2 hover:text-aurora-green">Experience</a>
                 <a href="https://mtolg.github.io/proyectointegrador/#skills" class="block py-2 hover:text-aurora-green">Skills</a>
@@ -201,55 +201,57 @@
         </div>
     </nav>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-dark-card/30 animate-slide-up">
+    <!--  Conceptos Basicos -->
+    <section id="services" class="py-20 bg-dark-card/30 animate-slide-up">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Ponte en contacto con nosotros</h2>
-            <div class="max-w-4xl mx-auto">
-                <div class="grid md:grid-cols-2 gap-8 mb-8">
-                    <div class="space-y-6">
-                        <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 rounded-full bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center">
-                                <i class="fas fa-envelope text-dark-bg"></i>
-                            </div>
-                            <div>
-                                <p class="text-gray-400">Email</p>
-                                <p>marco.toledo@edu.uag.mx</p>
-                            </div>
-                        </div>
-                        <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 rounded-full bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center">
-                                <i class="fas fa-phone text-dark-bg"></i>
-                            </div>
-                            <div>
-                                <p class="text-gray-400">N&uacute;mero de Tel&eacute;fono</p>
-                                <p>+52 (554) 776-7395</p>
-                            </div>
-                        </div>
-                        <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 rounded-full bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center">
-                                <i class="fas fa-map-marker-alt text-dark-bg"></i>
-                            </div>
-                            <div>
-                                <p class="text-gray-400">Direcci&oacute;n</p>
-                                <p>Cuajimalpa de Morelos, CDMX</p>
-                            </div>
-                        </div>
+        </br>
+            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Conceptos B&aacute;sicos</h2>
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+                <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center">
+                        <i class="fas fa-laptop-code text-2xl text-dark-bg"></i>
                     </div>
-
-                    <form class="space-y-4">
-                        <input type="text" placeholder="Tu Nombre" class="w-full px-4 py-3 bg-dark-card border border-dark-border rounded-lg focus:outline-none focus:border-aurora-green">
-                        <input type="email" placeholder="Tu Email" class="w-full px-4 py-3 bg-dark-card border border-dark-border rounded-lg focus:outline-none focus:border-aurora-green">
-                        <textarea placeholder="Dejanos tu Mensaje" rows="4" class="w-full px-4 py-3 bg-dark-card border border-dark-border rounded-lg focus:outline-none focus:border-aurora-green"></textarea>
-                        <button type="submit" class="w-full px-8 py-3 bg-gradient-to-r from-aurora-green to-aurora-blue rounded-lg text-dark-bg font-semibold hover:shadow-lg hover:shadow-aurora-green/50 transition transform hover:scale-105">
-                            Enviar Mensaje
-                        </button>
-                    </form>
+                    <h3 class="text-xl font-semibold mb-3">Cloud Computing</h3>
+                    <p class="text-gray-400">
+                       Es la entrega de servicios informáticos (servidores, almacenamiento, bases de datos, redes, software y análisis) a través de Internet. En lugar de poseer y mantener centros de datos físicos o servidores propios, alquilas el acceso a estos recursos a un proveedor de la nube. Esto permite una innovación más rápida, recursos flexibles y economías de escala.
+                    </p>
                 </div>
+
+                <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center">
+                        <i class="fas fa-mobile-alt text-2xl text-dark-bg"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">IaaS </br>(Infraestructura como Servicio)</h3>
+                    <p class="text-gray-400">
+                        Es el modelo fundamental. Proporciona los bloques de construcción básicos para la TI en la nube. Se renta la infraestructura de TI (servidores, máquinas virtuales, almacenamiento, redes y sistemas operativos) mediante un modelo de pago por uso. Es ideal para construir una infraestructura robusta o migrar centros de datos sin el gasto de capital inicial.
+                    </p>
+                </div>
+
+                <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center">
+                        <i class="fas fa-palette text-2xl text-dark-bg"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">PaaS</br> (Plataforma como Servicio)</h3>
+                    <p class="text-gray-400">
+                        Proporciona un entorno bajo demanda para el desarrollo, prueba, entrega y administración de aplicaciones de software. Está diseñado para que los desarrolladores puedan crear rápidamente aplicaciones web o móviles sin preocuparse por configurar o administrar la infraestructura subyacente de servidores, almacenamiento o redes.
+                    </p>
+                </div>
+
+                <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-pink to-aurora-green flex items-center justify-center">
+                        <i class="fas fa-cloud text-2xl text-dark-bg"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">SaaS (Software como Servicio)</h3>
+                    <p class="text-gray-400">
+                        Es la entrega de aplicaciones de software a través de Internet, generalmente bajo un modelo de suscripción. El proveedor de la nube aloja y administra la aplicación de software y la infraestructura subyacente, y se encarga del mantenimiento (como las actualizaciones de software y los parches de seguridad).
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
 
+   
     <!-- Footer -->
     <footer class="py-8 border-t border-dark-border">
         <div class="container mx-auto px-6 text-center">
