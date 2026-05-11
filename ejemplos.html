@@ -171,7 +171,7 @@
             <div class="flex justify-between items-center">
                 <div class="text-2xl font-bold gradient-text">Administraci&oacute;n de servicios</div>
                 <ul class="hidden md:flex space-x-8">
-                    <li><a href="./conceptos.html" class="hover:text-aurora-green transition">Conceptos</a></li>
+                    <li><a href="https://mtolg.github.io/proyectointegrador/#home" class="hover:text-aurora-green transition">Conceptos</a></li>
                     <li><a href="https://mtolg.github.io/proyectointegrador/#about" class="hover:text-aurora-green transition">About</a></li>
                     <li><a href="https://mtolg.github.io/proyectointegrador/#experience" class="hover:text-aurora-green transition">Experience</a></li>
                     <li><a href="https://mtolg.github.io/proyectointegrador/#skills" class="hover:text-aurora-green transition">Skills</a></li>
@@ -188,7 +188,7 @@
             </div>
             <!-- Mobile menu -->
             <div id="mobileMenu" class="hidden md:hidden mt-4 space-y-2">
-                <a href="./conceptos.html" class="block py-2 hover:text-aurora-green">Conceptos</a>
+                <a href="https://mtolg.github.io/proyectointegrador/#home" class="block py-2 hover:text-aurora-green">Conceptos</a>
                 <a href="https://mtolg.github.io/proyectointegrador/#about" class="block py-2 hover:text-aurora-green">About</a>
                 <a href="https://mtolg.github.io/proyectointegrador/#experience" class="block py-2 hover:text-aurora-green">Experience</a>
                 <a href="https://mtolg.github.io/proyectointegrador/#skills" class="block py-2 hover:text-aurora-green">Skills</a>
@@ -201,57 +201,136 @@
         </div>
     </nav>
 
-    <!--  Conceptos Basicos -->
-    <section id="services" class="py-20 bg-dark-card/30 animate-slide-up">
+   
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 animate-slide-up">
         <div class="container mx-auto px-6">
-        </br></br>
-            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Conceptos B&aacute;sicos</h2>
-            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-                <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center">
-                        <i class="fas fa-laptop-code text-2xl text-dark-bg"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-3">Cloud Computing</h3>
-                    <p class="text-gray-400">
-                       Es la entrega de servicios informáticos (servidores, almacenamiento, bases de datos, redes, software y análisis) a través de Internet. En lugar de poseer y mantener centros de datos físicos o servidores propios, alquilas el acceso a estos recursos a un proveedor de la nube. Esto permite una innovación más rápida, recursos flexibles y economías de escala.
-                    </p>
-                </div>
+            </br></br>
+            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Ejemplos de servicios en la nube</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                <!-- Frontend Skills -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-aurora-green">IaaS (Infraestructura como Servicio)</h3>
 
-                <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center">
-                        <i class="fas fa-mobile-alt text-2xl text-dark-bg"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-3">IaaS </br>(Infraestructura como Servicio)</h3>
-                    <p class="text-gray-400">
-                        Es el modelo fundamental. Proporciona los bloques de construcción básicos para la TI en la nube. Se renta la infraestructura de TI (servidores, máquinas virtuales, almacenamiento, redes y sistemas operativos) mediante un modelo de pago por uso. Es ideal para construir una infraestructura robusta o migrar centros de datos sin el gasto de capital inicial.
-                    </p>
-                </div>
+                    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center">
+                               <img src="./amazonec2.jpg" alt="Amazon EC2">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Amazon EC2 (AWS)</h3>
+                                <p class="text-gray-400 mb-4">Proporciona capacidad de computaci&oacute;n redimensionable (m&aacute;quinas virtuales) en la nube.</p>
+                                
+                            </div>
+                        </div>
 
-                <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center">
-                        <i class="fas fa-palette text-2xl text-dark-bg"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-3">PaaS</br> (Plataforma como Servicio)</h3>
-                    <p class="text-gray-400">
-                        Proporciona un entorno bajo demanda para el desarrollo, prueba, entrega y administración de aplicaciones de software. Está diseñado para que los desarrolladores puedan crear rápidamente aplicaciones web o móviles sin preocuparse por configurar o administrar la infraestructura subyacente de servidores, almacenamiento o redes.
-                    </p>
-                </div>
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center">
+                                <img style="width: 45%; height: auto;" src="./azure.jpg" alt="Azure">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Microsoft Azure Virtual Machines</h3>
+                                <p class="text-gray-400 mb-4">Permite crear instancias de cómputo en la infraestructura global de Microsoft.</p>
+                                
+                            </div>
+                        </div>
 
-                <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-pink to-aurora-green flex items-center justify-center">
-                        <i class="fas fa-cloud text-2xl text-dark-bg"></i>
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center">
+                                <img style="width: 70%; height: auto;" src="./gcp.jpg" alt="Azure">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Google Compute Engine (GCP)</h3>
+                                <p class="text-gray-400 mb-4">Ofrece m&aacute;quinas virtuales de alto rendimiento alojadas en la infraestructura de Google.</p>
+                                
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">SaaS (Software como Servicio)</h3>
-                    <p class="text-gray-400">
-                        Es la entrega de aplicaciones de software a través de Internet, generalmente bajo un modelo de suscripción. El proveedor de la nube aloja y administra la aplicación de software y la infraestructura subyacente, y se encarga del mantenimiento (como las actualizaciones de software y los parches de seguridad).
-                    </p>
-                </div>
 
+
+</br></br>
+                <!-- Backend Skills -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-aurora-blue">PaaS (Plataforma como Servicio)</h3>
+                    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center">
+                               <img style="width: 70%; height: auto;"  src="./hrk.jpg" alt="Heroku">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Heroku</h3>
+                                <p class="text-gray-400 mb-4">Una plataforma muy popular entre desarrolladores para crear, entregar y monitorear aplicaciones web r&aacute;pidamente.</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center">
+                                <img style="width: 80%; height: auto;" src="./gooap.jpg" alt="Google App Engine">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Google App Engine</h3>
+                                <p class="text-gray-400 mb-4">Plataforma sin servidor (serverless) para desarrollar y alojar aplicaciones web a escala</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center">
+                                <img style="width: 70%; height: auto;" src="./azr.jpg" alt="Microsoft Azure App Service">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Microsoft Azure App Service</h3>
+                                <p class="text-gray-400 mb-4">Servicio basado en HTTP para alojar aplicaciones web, API REST y back-ends para dispositivos m&oacute;viles.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</br></br>
+                <!-- Tools & Others -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-aurora-purple">SaaS (Software como Servicio)</h3>
+                    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center">
+                               <img style="width: 70%; height: auto;"  src="./wrks.jpg" alt="Google Workspace">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Google Workspace (Gmail, Docs, Drive): </h3>
+                                <p class="text-gray-400 mb-4">Suite de productividad y colaboraci&oacute;n alojada completamente en la nube.</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center">
+                                <img style="width: 80%; height: auto;" src="./sals.png" alt="Salesforce">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Salesforce</h3>
+                                <p class="text-gray-400 mb-4">La plataforma de gesti&oacute;n de relaciones con los clientes (CRM) basada en la nube m&aacute;s utilizada del mundo</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                            <div class="h-48 bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center">
+                                <img style="width: 70%; height: auto;" src="./m365.jpg" alt="Microsoft 365">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Microsoft 365</h3>
+                                <p class="text-gray-400 mb-4">Versi&oacute;n en la nube de la tradicional suite de ofim&aacute;tica (Word, Excel, Teams), accesible desde el navegador. </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-   
     <!-- Footer -->
     <footer class="py-8 border-t border-dark-border">
         <div class="container mx-auto px-6 text-center">
